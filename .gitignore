@@ -1,0 +1,20 @@
+# Claude Code 本地状态(memory、session、本地设置)
+.claude/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Go 编译产物
+*.exe
+*.test
+*.out
+/bin/
+
+# 我自己用的环境标记文件,不需要进仓库
+.gitcommit_win
