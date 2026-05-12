@@ -7,5 +7,5 @@ func swap(x, y string) (string, string) {
 }
 func main() {
 	a, b := swap("hello", "world")
-	fmt.Print("%s %s", a, b)
+	fmt.Printf("%s %s", a, b)
 }
